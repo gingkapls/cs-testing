@@ -1,7 +1,8 @@
 const { describe, it, expect } = require("@jest/globals");
-const LinkedList = require("./factory");
+// const LinkedList = require("./factory");
 // const LinkedList  = require("./class");
 // const LinkedList = require("./anon-arrow-factory");
+const LinkedList = require('./Constructor');
 
 describe("constructor", () => {
   it("creates an empty linked list", () => {
