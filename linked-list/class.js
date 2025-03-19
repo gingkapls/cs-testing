@@ -1,6 +1,6 @@
-import Node from "./Node.js";
+const Node = require("./Node.js");
 
-class LinkedList {
+const LinkedList = class {
   #head;
   #tail;
 
@@ -47,4 +47,4 @@ class LinkedList {
   }
 }
 
-export default LinkedList;
+module.exports =  LinkedList;
